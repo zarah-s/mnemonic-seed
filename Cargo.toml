@@ -1,0 +1,13 @@
+[package]
+name = "mnemonic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bip39 = "2.0.0"
+hex = "0.4.3"
+pbkdf2 = "0.12.2"
+rand = "0.8.5"
+sha2 = "0.10.8"
